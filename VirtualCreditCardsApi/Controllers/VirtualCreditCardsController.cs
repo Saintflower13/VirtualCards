@@ -23,12 +23,12 @@ namespace VirtualCreditCardsApi.Controllers
             if (String.IsNullOrEmpty(email))
                 return BadRequest();
 
-            var virtualCreditCard = VirtualCreditCardServices.GetByEmail(email, _context);
+            var virtualCreditCardList = VirtualCreditCardServices.GetByEmail(email, _context);
 
-            if (virtualCreditCard.Count() == 0)
+            if (virtualCreditCardList?.Count() == 0)
                 return NotFound();
 
-            return Ok(virtualCreditCard);
+            return Ok(virtualCreditCardList);
         }
 
         [HttpPost]

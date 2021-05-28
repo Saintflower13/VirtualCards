@@ -18,13 +18,14 @@ namespace VirtualCreditCardsApi.Services
             return new VirtualCreditCardDTO { Id = card.Id, CardNumber = card.CardNumber };
         }
 
-        public static IQueryable<VirtualCreditCardDTO> GetByEmail(string email, VirtualCreditCardsApiContext context) => from card in context.VirtualCreditCards
-                                                                                                                         where card.ClientEmail.Email == email
-                                                                                                                         orderby card.Id ascending
-                                                                                                                         select new VirtualCreditCardDTO()
-                                                                                                                         {
-                                                                                                                             Id = card.Id,
-                                                                                                                             CardNumber = card.CardNumber
-                                                                                                                         };
+        public static IQueryable<VirtualCreditCardDTO> 
+            GetByEmail(string email, VirtualCreditCardsApiContext context) => from card in context.VirtualCreditCards
+                                                                              where card.ClientEmail.Email == email
+                                                                              orderby card.Id ascending
+                                                                              select new VirtualCreditCardDTO()
+                                                                              {
+                                                                                  Id = card.Id,
+                                                                                  CardNumber = card.CardNumber
+                                                                              };
     }
 }
