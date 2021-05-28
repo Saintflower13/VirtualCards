@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\55129\\source\\repos\\VirtualCreditCardsApi\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj": {}
+    "C:\\Users\\User\\source\\repos\\VirtualCardsOriginal\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\55129\\source\\repos\\VirtualCreditCardsApi\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj": {
+    "C:\\Users\\User\\source\\repos\\VirtualCardsOriginal\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\55129\\source\\repos\\VirtualCreditCardsApi\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\VirtualCardsOriginal\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj",
         "projectName": "VirtualCreditCardsApi",
-        "projectPath": "C:\\Users\\55129\\source\\repos\\VirtualCreditCardsApi\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj",
-        "packagesPath": "C:\\Users\\55129\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\55129\\source\\repos\\VirtualCreditCardsApi\\VirtualCreditCardsApi\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\VirtualCardsOriginal\\VirtualCreditCardsApi\\VirtualCreditCardsApi.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\VirtualCardsOriginal\\VirtualCreditCardsApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\55129\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,29 +9,27 @@ namespace VirtualCreditCardsApi.Services
 
         private static int SumDigits(int number)
         {
-            string mult_str = Convert.ToString(number);
-            return (int)Char.GetNumericValue(mult_str[0]) + (int)Char.GetNumericValue(mult_str[1]);
-        }
-          /*      num = ler_inteiro_positivo();
+            int digit, sum = 0;
 
-          while (num > 0) {
-            digito =  num % 10; // O resto é o algarismo mais a direita 
-            soma += digito; 
-            num = num / 10; // A parte inteira da divisão é o número sem o algarismo mais a direita 
-          }
-        */
+            while (number > 0)
+            {
+                digit = number % 10; // O resto é o algarismo mais a direita 
+                sum += digit;
+                number /= 10; // A parte inteira da divisão é o número sem o algarismo mais a direita 
+            }
+
+            return sum;
+        }
 
         private static int CalculateOddNumber(int digit)
         {
-            digit = digit * 2;
+            digit *= 2;
 
             if (digit > 9)
-                SumDigits(digit);
+                digit = SumDigits(digit);
 
             return digit;
         }
-
-
 
         public static int CalculateCheckDigit(string cardNumber)
         {
